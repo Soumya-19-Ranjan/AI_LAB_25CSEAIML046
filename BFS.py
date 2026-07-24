@@ -15,7 +15,7 @@ def bfs(graph,start_node):
     
     return visited
 
-print("---Build Tour Graph---")
+print("---Build Your Graph---")
 student_graph = {}
 
 num_edges = int(input("How many edges (connection) does your graph has ?"))
@@ -38,4 +38,4 @@ print(f"\nYour Graph Dictionary: {student_graph}")
 print("Staring BFS Traversal...")
 
 result = bfs(student_graph,start)
-print(f "BFS traversal order: {result}")
+print(f"BFS traversal order: {result}")
