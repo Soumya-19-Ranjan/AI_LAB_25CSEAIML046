@@ -1,0 +1,17 @@
+======================================================================
+EXPERIMENT 06: Hill Climbing Search
+Source Code File : HILL_CLIMBING.py
+Technique / Type : Local Search Optimization for Objective Function f(x) = -(x^2) + 10
+======================================================================
+
+--- SAMPLE / TEST INPUT ---
+Starting value: 10
+Step size: 0.1
+Maximum iterations: 100
+
+--- TERMINAL EXECUTION OUTPUT ---
+----------------------------------------------------------------------
+Enter the starting value: Enter the step size: Enter maximum iterations: 
+Best position found:  1.8790524691780774e-14
+Maximum Value =  10.0
+----------------------------------------------------------------------

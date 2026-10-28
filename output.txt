@@ -1,0 +1,388 @@
+================================================================================
+       ARTIFICIAL INTELLIGENCE LABORATORY (AI LAB) - EXPERIMENT OUTPUTS       
+================================================================================
+Student Name  : Soumya Ranjan
+Roll / Reg No : 25CSEAIML046
+Course        : AI Laboratory (CSE-AIML)
+Repository    : https://github.com/Soumya-19-Ranjan/AI_LAB_25CSEAIML046.git
+================================================================================
+
+INDEX OF EXPERIMENTS:
+--------------------------------------------------------------------------------
+Exp 01 : Breadth First Search (BFS)          [ BFS.py ]
+Exp 02 : Depth First Search (DFS)            [ DFS.py ]
+Exp 03 : Uniform Cost Search (UCS)           [ ucs.py ]
+Exp 04 : Depth Limited Search (DLS)          [ dls.py ]
+Exp 05 : A* Search Algorithm                 [ A_star.py ]
+Exp 06 : Hill Climbing Search                [ HILL_CLIMBING.py ]
+Exp 07 : Travelling Salesman Problem (TSP)   [ TSP.py ]
+Exp 08 : 8-Queens Problem                    [ Eight_Queen.py ]
+Exp 09 : Water Jug Problem                   [ Water_jug.py ]
+Exp 10 : Tic-Tac-Toe Game                    [ Tic_Tac_Toe.py ]
+Exp 11 : Minimax Algorithm                   [ minmax.py ]
+Exp 12 : Alpha-Beta Pruning                  [ Alpha_Beta_pruning.py ]
+Exp 13 : Blocks World Problem                [ block_world.py ]
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 01: BREADTH FIRST SEARCH (BFS)
+Source File : BFS.py
+Algorithm   : Uninformed Graph Search using FIFO Queue
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Number of edges: 4
+Edges: (A B), (A C), (B D), (C E)
+Starting node: A
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+---Build Your Graph---
+How many edges (connection) does your graph has ?Enter each edge separated by a spacce(e.g., A B):
+Edge 1Edge 2Edge 3Edge 4Enter the starting node for BFS: 
+Your Graph Dictionary: {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'E'], 'D': ['B'], 'E': ['C']}
+Staring BFS Traversal...
+Exploring node1: A
+Exploring node1: B
+Exploring node1: C
+Exploring node1: D
+Exploring node1: E
+BFS traversal order: ['A', 'B', 'C', 'D', 'E']
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 02: DEPTH FIRST SEARCH (DFS)
+Source File : DFS.py
+Algorithm   : Uninformed Graph Search using LIFO Stack
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Number of edges: 4
+Edges: (A B), (A C), (B D), (C E)
+Starting node: A
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+---Build Your Graph---
+How many edges (connection) does your graph has ?Enter each edge separated by a spacce(e.g., A B):
+Edge 1Edge 2Edge 3Edge 4Enter the starting node for DFS: 
+Your Graph Dictionary: {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'E'], 'D': ['B'], 'E': ['C']}
+Staring DFS Traversal...
+Exploring node1: A
+Exploring node1: C
+Exploring node1: E
+Exploring node1: B
+Exploring node1: D
+DFS traversal order: ['A', 'C', 'E', 'B', 'D']
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 03: UNIFORM COST SEARCH (UCS)
+Source File : ucs.py
+Algorithm   : Optimal Search using Priority Queue (Lowest Path Cost g(n))
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Number of nodes: 5
+Number of edges: 5
+Edges (u v cost): (0 1 2), (0 2 4), (1 3 7), (2 4 3), (3 4 1)
+Start node: 0
+Goal node: 4
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+===== UNIFORM COST SEARCH =====
+Enter number of nodes: Enter number of edges: Enter edges as:
+source destination cost
+Enter starting node: Enter goal node: 
+Goal Found!
+Optimal Path: 0 -> 2 -> 4
+Minimum Cost: 7
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 04: DEPTH LIMITED SEARCH (DLS)
+Source File : dls.py
+Algorithm   : Constrained Depth DFS Search with Depth Limit
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Number of nodes: 5
+Number of edges: 4
+Edges: (0 1), (0 2), (1 3), (2 4)
+Start node: 0
+Goal node: 4
+Depth limit: 3
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+===== DEPTH LIMITED SEARCH =====
+Enter number of nodes: Enter number of edges: Enter edges (source destination):
+Enter starting node: Enter goal node: Enter depth limit: 
+Goal Found!
+Path: 0 -> 2 -> 4
+Depth: 2
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 05: A* SEARCH ALGORITHM
+Source File : A_star.py
+Algorithm   : Informed Heuristic Search using f(n) = g(n) + h(n)
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Number of nodes: 4
+Heuristics: h(A)=10, h(B)=8, h(C)=5, h(D)=0
+Number of edges: 4
+Edges (u v weight): A->B(1), A->C(4), B->D(5), C->D(2)
+Start node: A
+Goal node: D
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+=== A* Algorithm Input Setup ===
+Enter the total number of nodes: 
+Enter the heuristic value h(n) for each node:
+Node name:  Heuristic h(A): Node name:  Heuristic h(B): Node name:  Heuristic h(C): Node name:  Heuristic h(D): 
+Enter total number of directed edges:
+Enter the edges in the format (from_node to_node weight)':
+ Edge 1:  Edge 2:  Edge 3:  Edge 4: 
+--- Path Finding ---
+Enter the start node: Enter the goal node: 
+== Result ===
+Shortest path: A->B->D
+Total Path Cost: 6.0
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 06: HILL CLIMBING SEARCH
+Source File : HILL_CLIMBING.py
+Algorithm   : Local Search Optimization for Objective Function f(x) = -(x^2) + 10
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Starting value: 10
+Step size: 0.1
+Maximum iterations: 100
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+Enter the starting value: Enter the step size: Enter maximum iterations: 
+Best position found:  1.8790524691780774e-14
+Maximum Value =  10.0
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 07: TRAVELLING SALESMAN PROBLEM (TSP)
+Source File : TSP.py
+Algorithm   : Minimum Hamiltonian Tour using Permutations
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Number of cities: 4
+Cost Matrix:
+[ 0 10 15 20]
+[10  0 35 25]
+[15 35  0 30]
+[20 25 30  0]
+Starting city: 0
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+Enter the number of cities: Enter the cost matrix:
+Enter the starting city (0 to 3): 
+Optimal path: 0->1->2->3
+Minimum cost: 45
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 08: 8-QUEENS PROBLEM
+Source File : Eight_Queen.py
+Algorithm   : Backtracking Constraint Satisfaction on 8x8 Board
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Autonomous Backtracking (No user input required)
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+Solution for 8-Queens Problem:
+
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . . Q
+. . . . . Q . .
+. . Q . . . . .
+. . . . . . Q .
+. Q . . . . . .
+. . . Q . . . .
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 09: WATER JUG PROBLEM
+Source File : Water_jug.py
+Algorithm   : State-Space BFS Search with Production Rules
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Jug 1 Capacity: 4L, Jug 2 Capacity: 3L, Target Goal: (4, 2)
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+steps to reach the target state (4, 2):
+(0, 0)
+(0, 3)
+(3, 0)
+(3, 3)
+(4, 2)
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 10: TIC-TAC-TOE GAME
+Source File : Tic_Tac_Toe.py
+Algorithm   : 2-Player Turn-based Game State Validation
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+Sequential row and column moves:
+Move 1 (Player X): Row 0, Col 0
+Move 2 (Player O): Row 1, Col 0
+Move 3 (Player X): Row 0, Col 1
+Move 4 (Player O): Row 1, Col 1
+Move 5 (Player X): Row 0, Col 2 (Player X Wins)
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+Player X's turn:
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player O's turn:
+X |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player X's turn:
+X |   |  
+---------
+O |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player O's turn:
+X | X |  
+---------
+O |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player X's turn:
+X | X |  
+---------
+O | O |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): X | X | X
+---------
+O | O |  
+---------
+  |   |  
+---------
+
+Player X wins!
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 11: MINIMAX ALGORITHM
+Source File : minmax.py
+Algorithm   : Adversarial Game Tree Search (Depth=3, Height=3)
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+8 Leaf Node Values: 3 5 6 9 1 2 0 -1
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+Enter 8 leaf node values: The optimal value is: 5
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 12: ALPHA-BETA PRUNING
+Source File : Alpha_Beta_pruning.py
+Algorithm   : Optimized Minimax Search with Alpha-Beta Branch Pruning
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+8 Leaf Node Values: 3 5 6 9 1 2 0 -1
+Initial Alpha: -infinity, Initial Beta: +infinity
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+Enter 8 leaf node values: 
+Optimal value: 5
+--------------------------------------------------------------------------------
+
+
+################################################################################
+EXPERIMENT 13: BLOCKS WORLD PROBLEM
+Source File : block_world.py
+Algorithm   : Classical AI Planning using State-Space BFS Search
+################################################################################
+
+[SAMPLE INPUT / PARAMETERS]:
+3 Blocks (A, B, C)
+Initial State: A on Table, B on A, C on Table
+Goal State   : A on Table, B on Table, C on B
+
+[EXECUTION OUTPUT]:
+--------------------------------------------------------------------------------
+===== BLOCK WORLD PROBLEM =====
+Enter number of blocks: 
+Enter block names:
+Block 1: Block 2: Block 3: 
+===== INITIAL STATE =====
+Enter the position of each block.
+Enter 'Table' if the block is on the table.
+Where is A initially? Where is B initially? Where is C initially? 
+===== GOAL STATE =====
+Enter the desired position of each block.
+Where should A be in the goal state? Where should B be in the goal state? Where should C be in the goal state? 
+Initial State:
+A -> Table
+B -> A
+C -> Table
+
+Goal State:
+A -> Table
+B -> Table
+C -> B
+
+===== SOLUTION =====
+Step 1: Move B from A to Table
+Step 2: Move C from Table to B
+
+Total moves: 2
+--------------------------------------------------------------------------------
+

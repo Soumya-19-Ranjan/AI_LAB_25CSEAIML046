@@ -1,0 +1,18 @@
+======================================================================
+EXPERIMENT 09: Water Jug Problem
+Source Code File : Water_jug.py
+Technique / Type : State-Space BFS Search with Production Rules
+======================================================================
+
+--- SAMPLE / TEST INPUT ---
+Jug 1 Capacity: 4L, Jug 2 Capacity: 3L, Target Goal: (4, 2)
+
+--- TERMINAL EXECUTION OUTPUT ---
+----------------------------------------------------------------------
+steps to reach the target state (4, 2):
+(0, 0)
+(0, 3)
+(3, 0)
+(3, 3)
+(4, 2)
+----------------------------------------------------------------------

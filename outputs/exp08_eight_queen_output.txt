@@ -1,0 +1,22 @@
+======================================================================
+EXPERIMENT 08: 8-Queens Problem
+Source Code File : Eight_Queen.py
+Technique / Type : Backtracking Constraint Satisfaction on 8x8 Board
+======================================================================
+
+--- SAMPLE / TEST INPUT ---
+Autonomous Backtracking (No user input required)
+
+--- TERMINAL EXECUTION OUTPUT ---
+----------------------------------------------------------------------
+Solution for 8-Queens Problem:
+
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . . Q
+. . . . . Q . .
+. . Q . . . . .
+. . . . . . Q .
+. Q . . . . . .
+. . . Q . . . .
+----------------------------------------------------------------------

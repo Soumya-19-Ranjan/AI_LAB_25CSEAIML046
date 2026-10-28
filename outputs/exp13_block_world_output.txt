@@ -1,0 +1,40 @@
+======================================================================
+EXPERIMENT 13: Blocks World Problem
+Source Code File : block_world.py
+Technique / Type : Classical AI Planning using State-Space BFS Search
+======================================================================
+
+--- SAMPLE / TEST INPUT ---
+3 Blocks (A, B, C)
+Initial State: A on Table, B on A, C on Table
+Goal State   : A on Table, B on Table, C on B
+
+--- TERMINAL EXECUTION OUTPUT ---
+----------------------------------------------------------------------
+===== BLOCK WORLD PROBLEM =====
+Enter number of blocks: 
+Enter block names:
+Block 1: Block 2: Block 3: 
+===== INITIAL STATE =====
+Enter the position of each block.
+Enter 'Table' if the block is on the table.
+Where is A initially? Where is B initially? Where is C initially? 
+===== GOAL STATE =====
+Enter the desired position of each block.
+Where should A be in the goal state? Where should B be in the goal state? Where should C be in the goal state? 
+Initial State:
+A -> Table
+B -> A
+C -> Table
+
+Goal State:
+A -> Table
+B -> Table
+C -> B
+
+===== SOLUTION =====
+Step 1: Move B from A to Table
+Step 2: Move C from Table to B
+
+Total moves: 2
+----------------------------------------------------------------------

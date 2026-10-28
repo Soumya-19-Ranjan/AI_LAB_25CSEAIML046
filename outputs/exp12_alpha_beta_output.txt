@@ -1,0 +1,15 @@
+======================================================================
+EXPERIMENT 12: Alpha-Beta Pruning
+Source Code File : Alpha_Beta_pruning.py
+Technique / Type : Optimized Minimax Search with Alpha-Beta Branch Pruning
+======================================================================
+
+--- SAMPLE / TEST INPUT ---
+8 Leaf Node Values: 3 5 6 9 1 2 0 -1
+Initial Alpha: -infinity, Initial Beta: +infinity
+
+--- TERMINAL EXECUTION OUTPUT ---
+----------------------------------------------------------------------
+Enter 8 leaf node values: 
+Optimal value: 5
+----------------------------------------------------------------------

@@ -1,0 +1,29 @@
+======================================================================
+EXPERIMENT 05: A* Search Algorithm
+Source Code File : A_star.py
+Technique / Type : Informed Heuristic Search using f(n) = g(n) + h(n)
+======================================================================
+
+--- SAMPLE / TEST INPUT ---
+Number of nodes: 4
+Heuristics: h(A)=10, h(B)=8, h(C)=5, h(D)=0
+Number of edges: 4
+Edges (u v weight): A->B(1), A->C(4), B->D(5), C->D(2)
+Start node: A
+Goal node: D
+
+--- TERMINAL EXECUTION OUTPUT ---
+----------------------------------------------------------------------
+=== A* Algorithm Input Setup ===
+Enter the total number of nodes: 
+Enter the heuristic value h(n) for each node:
+Node name:  Heuristic h(A): Node name:  Heuristic h(B): Node name:  Heuristic h(C): Node name:  Heuristic h(D): 
+Enter total number of directed edges:
+Enter the edges in the format (from_node to_node weight)':
+ Edge 1:  Edge 2:  Edge 3:  Edge 4: 
+--- Path Finding ---
+Enter the start node: Enter the goal node: 
+== Result ===
+Shortest path: A->B->D
+Total Path Cost: 6.0
+----------------------------------------------------------------------

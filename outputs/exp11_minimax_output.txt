@@ -1,0 +1,13 @@
+======================================================================
+EXPERIMENT 11: Minimax Algorithm
+Source Code File : minmax.py
+Technique / Type : Adversarial Game Tree Search (Depth=3, Height=3)
+======================================================================
+
+--- SAMPLE / TEST INPUT ---
+8 Leaf Node Values: 3 5 6 9 1 2 0 -1
+
+--- TERMINAL EXECUTION OUTPUT ---
+----------------------------------------------------------------------
+Enter 8 leaf node values: The optimal value is: 5
+----------------------------------------------------------------------
