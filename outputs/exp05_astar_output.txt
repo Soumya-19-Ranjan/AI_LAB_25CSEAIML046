@@ -1,0 +1,20 @@
+Experiment 5: A* Search Algorithm
+Script: A_star.py
+============================================================
+Sample Input Provided:
+4 nodes (A, B, C, D) with heuristics h(A)=10, h(B)=8, h(C)=5, h(D)=0; 4 directed edges: A->B(1), A->C(4), B->D(5), C->D(2); Start: A, Goal: D
+============================================================
+Terminal Execution Output:
+============================================================
+=== A* Algorithm Input Setup ===
+Enter the total number of nodes: 
+Enter the heuristic value h(n) for each node:
+Node name:  Heuristic h(A): Node name:  Heuristic h(B): Node name:  Heuristic h(C): Node name:  Heuristic h(D): 
+Enter total number of directed edges:
+Enter the edges in the format (from_node to_node weight)':
+ Edge 1:  Edge 2:  Edge 3:  Edge 4: 
+--- Path Finding ---
+Enter the start node: Enter the goal node: 
+== Result ===
+Shortest path: A->B->D
+Total Path Cost: 6.0

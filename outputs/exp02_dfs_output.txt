@@ -1,0 +1,19 @@
+Experiment 2: Depth First Search (DFS)
+Script: DFS.py
+============================================================
+Sample Input Provided:
+4 edges: (A B), (A C), (B D), (C E); Starting node: A
+============================================================
+Terminal Execution Output:
+============================================================
+---Build Your Graph---
+How many edges (connection) does your graph has ?Enter each edge separated by a spacce(e.g., A B):
+Edge 1Edge 2Edge 3Edge 4Enter the starting node for DFS: 
+Your Graph Dictionary: {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'E'], 'D': ['B'], 'E': ['C']}
+Staring DFS Traversal...
+Exploring node1: A
+Exploring node1: C
+Exploring node1: E
+Exploring node1: B
+Exploring node1: D
+DFS traversal order: ['A', 'C', 'E', 'B', 'D']

@@ -35,6 +35,7 @@ def astar(graph, heuristic, start, goal):
         if current_node == goal:
             path = [goal]
             while current_node in came_from:
+                current_node = came_from[current_node]
                 path.append(current_node)
             path.reverse()
             return path, g_cost[goal]
