@@ -1,0 +1,19 @@
+============================================================
+Experiment 07: Water Jug Problem Solver (BFS)
+Source File: Water_Jug.py
+============================================================
+
+[INPUT]
+Jug 1 Capacity: 4 Liters
+Jug 2 Capacity: 3 Liters
+Target State: (2, 3)
+
+[TERMINAL EXECUTION OUTPUT]
+Steps to reach the target state (2, 3):
+(0, 0)
+(4, 0)
+(1, 3)
+(1, 0)
+(0, 1)
+(4, 1)
+(2, 3)

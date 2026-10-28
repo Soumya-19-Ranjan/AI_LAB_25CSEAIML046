@@ -1,0 +1,43 @@
+============================================================
+Experiment 01: Breadth First Search (BFS) Algorithm
+Source File: BFS.py
+============================================================
+
+[INPUT]
+Number of edges: 4
+Edges:
+A B
+A C
+B D
+C E
+Starting node: A
+Target node: D
+
+[TERMINAL EXECUTION OUTPUT]
+------------BFS Graph Traversal with Target Search Program---------
+
+--------Build your graph--------
+
+How many edges (connections) does your graph have : 4
+
+Enter each edge separated by a space (e.g., A B) : 
+Edge 1 : A B
+Edge 2 : A C
+Edge 3 : B D
+Edge 4 : C E
+
+Enter the starting node for BFS : A
+Enter the target node : D
+
+Your graph dictionary : {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'E'], 'D': ['B'], 'E': ['C']}
+
+Starting BFS traversal.......
+
+Exploring node : A
+Exploring node : B
+Exploring node : C
+Exploring node : D
+
+Target node 'D' found!
+
+Visited Nodes : ['A', 'B', 'C', 'D']

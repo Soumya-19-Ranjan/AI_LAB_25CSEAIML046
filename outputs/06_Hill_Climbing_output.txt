@@ -1,0 +1,18 @@
+============================================================
+Experiment 06: Hill Climbing Algorithm (Function Optimization)
+Source File: Hill_Climbing_Algorithm.py
+============================================================
+
+[INPUT]
+Starting value: 10
+Step size: 0.5
+Maximum iterations: 50
+Objective Function: f(x) = -(x^2) + 10
+
+[TERMINAL EXECUTION OUTPUT]
+Enter the starting value: 10
+Enter the step size: 0.5
+Enter maximum iterations: 50
+
+Best position found:  0.0
+Maximum Value =  10.0

@@ -1,0 +1,42 @@
+============================================================
+Experiment 02: Depth First Search (DFS) Algorithm
+Source File: DFS.py
+============================================================
+
+[INPUT]
+Number of edges: 4
+Edges:
+A B
+A C
+B D
+C E
+Starting node: A
+Target node: E
+
+[TERMINAL EXECUTION OUTPUT]
+---------DFS Graph Traversal with Target Search Program---------
+
+-------Build your graph-------
+
+How many edges (connections) does your graph have : 4
+
+Enter each edge separated by a space (e.g., A B) : 
+Edge 1 : A B
+Edge 2 : A C
+Edge 3 : B D
+Edge 4 : C E
+
+Enter the starting node for DFS : A
+Enter the target node : E
+
+Your graph dictionary : {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'E'], 'D': ['B'], 'E': ['C']}
+
+Starting DFS traversal.......
+
+Exploring node : A
+Exploring node : C
+Exploring node : E
+
+Target node 'E' found!
+
+Visited Nodes : ['A', 'C', 'E']

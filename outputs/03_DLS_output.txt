@@ -1,0 +1,33 @@
+============================================================
+Experiment 03: Depth Limited Search (DLS) Algorithm
+Source File: DLS.py
+============================================================
+
+[INPUT]
+Number of nodes: 5
+Number of edges: 4
+Edges (source destination):
+0 1
+0 2
+1 3
+2 4
+Starting node: 0
+Goal node: 3
+Depth limit: 2
+
+[TERMINAL EXECUTION OUTPUT]
+===== DEPTH LIMITED SEARCH =====
+Enter number of nodes: 5
+Enter number of edges: 4
+Enter edges (source destination):
+0 1
+0 2
+1 3
+2 4
+Enter starting node: 0
+Enter goal node: 3
+Enter depth limit: 2
+
+Goal Found!
+Path: 0 -> 1 -> 3
+Depth: 2

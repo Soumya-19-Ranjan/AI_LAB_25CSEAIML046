@@ -1,0 +1,13 @@
+============================================================
+Experiment 12: Minimax Algorithm
+Source File: Minimax_Algorithm.py
+============================================================
+
+[INPUT]
+8 Leaf Node Values:
+3 5 2 9 12 5 23 23
+
+[TERMINAL EXECUTION OUTPUT]
+Enter 8 leaf node values: 3 5 2 9 12 5 23 23
+
+The optimal value is:  12

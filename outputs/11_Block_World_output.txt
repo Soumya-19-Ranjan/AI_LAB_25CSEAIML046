@@ -1,0 +1,53 @@
+============================================================
+Experiment 11: Block World Problem (Goal State Planning with BFS)
+Source File: Block_World.py
+============================================================
+
+[INPUT]
+Number of blocks: 3 (A, B, C)
+Initial State:
+A -> Table
+B -> A
+C -> Table
+Goal State:
+A -> B
+B -> C
+C -> Table
+
+[TERMINAL EXECUTION OUTPUT]
+======== BLOCK WORLD PROBLEM ========
+Enter the number of blocks: 3
+
+Enter block names:
+Block 1: A
+Block 2: B
+Block 3: C
+
+===== INITIAL STATE =====
+Enter the position of each block.
+Enter 'Table' if the block is on the table.
+Where is A initially ? Table
+Where is B initially ? A
+Where is C initially ? Table
+
+===== GOAL STATE =====
+Enter the desired position of each block.
+Where should A be in the goal state ? B
+Where should B be in the goal state ? C
+Where should C be in the goal state ? Table
+
+Initial State:
+C -> Table
+B -> A
+A -> Table
+
+Goal State:
+A -> B
+B -> C
+C -> Table
+
+===== SOLUTION =====
+Step 1: Move B from A to C
+Step 2: Move A from Table to B
+
+Total moves: 2

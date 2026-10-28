@@ -1,0 +1,12 @@
+============================================================
+Experiment 13: Alpha-Beta Pruning Algorithm
+Source File: Alpha_Beta_Pruning.py
+============================================================
+
+[INPUT]
+8 Leaf Node Values:
+3 5 6 9 1 2 0 -1
+
+[TERMINAL EXECUTION OUTPUT]
+Enter 8 leaf node values: 3 5 6 9 1 2 0 -1
+The optimal value is:  5

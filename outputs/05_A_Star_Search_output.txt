@@ -1,0 +1,47 @@
+============================================================
+Experiment 05: A* Search Algorithm
+Source File: A_Star_Search_Algorithm.py
+============================================================
+
+[INPUT]
+Number of nodes: 4
+Heuristic values:
+A: 3.0
+B: 2.0
+C: 1.0
+D: 0.0
+Directed edges: 4
+A B 1.0
+A C 2.0
+B D 5.0
+C D 1.0
+Start node: A
+Goal node: D
+
+[TERMINAL EXECUTION OUTPUT]
+Enter total number of nodes: 4
+
+Enter Heuristic values h(n) for each node: 
+   Node name: A
+   Heuristic value for A: 3
+   Node name: B
+   Heuristic value for B: 2
+   Node name: C
+   Heuristic value for C: 1
+   Node name: D
+   Heuristic value for D: 0
+
+Enter total number of directed edges: 4
+
+Enter each edge in the format:
+   from_node to_node weight
+   Edge 1: A B 1
+   Edge 2: A C 2
+   Edge 3: B D 5
+   Edge 4: C D 1
+
+Enter start node: A
+Enter goal node: D
+
+Optimal path: A -> C -> D
+Total cost:  3.0

@@ -1,0 +1,71 @@
+============================================================
+Experiment 10: Tic-Tac-Toe Game
+Source File: Tic_Tac_Toe.py
+============================================================
+
+[INPUT]
+Move sequence (Row Col):
+Turn 1 (X): 0 0
+Turn 2 (O): 1 0
+Turn 3 (X): 0 1
+Turn 4 (O): 1 1
+Turn 5 (X): 0 2 (X completes top row)
+
+[TERMINAL EXECUTION OUTPUT]
+Player X's turn:
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): 0
+Enter column (0-2): 0
+
+Player O's turn:
+X |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): 1
+Enter column (0-2): 0
+
+Player X's turn:
+X |   |  
+---------
+O |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): 0
+Enter column (0-2): 1
+
+Player O's turn:
+X | X |  
+---------
+O |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): 1
+Enter column (0-2): 1
+
+Player X's turn:
+X | X |  
+---------
+O | O |  
+---------
+  |   |  
+---------
+Enter row (0-2): 0
+Enter column (0-2): 2
+X | X | X
+---------
+O | O |  
+---------
+  |   |  
+---------
+
+Player X wins!

@@ -1,0 +1,19 @@
+============================================================
+Experiment 08: 8-Queens Problem (Backtracking)
+Source File: Eight_Queen.py
+============================================================
+
+[INPUT]
+Board Size: 8x8 Chessboard
+
+[TERMINAL EXECUTION OUTPUT]
+Solution for 8-Queens Problem:
+
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . . Q
+. . . . . Q . .
+. . Q . . . . .
+. . . . . . Q .
+. Q . . . . . .
+. . . Q . . . .
