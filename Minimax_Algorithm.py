@@ -29,3 +29,4 @@ else:
     height = 3
     result = minimax(0, 0, True, scores, height)
     print("\nThe optimal value is: ", result)
+

@@ -73,3 +73,4 @@ if path:
     print("Total cost: ", cost)
 else:
     print("\nNo path found.")
+
