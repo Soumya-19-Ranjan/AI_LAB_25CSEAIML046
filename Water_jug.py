@@ -1,5 +1,4 @@
 from collections import deque
-from importlib.resources import path
 
 def water_jug(cap1, cap2, target_state):
     visited = set()

@@ -120,11 +120,11 @@ for block in blocks:
 
 # Display states
 print("\nInitial State:")
-for block, position in initial_state:
+for block, position in sorted(initial_state):
     print(block, "->", position)
 
 print("\nGoal State:")
-for block, position in goal_state:
+for block, position in sorted(goal_state):
     print(block, "->", position)
 
 # Solve

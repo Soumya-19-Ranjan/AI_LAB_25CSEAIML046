@@ -837,7 +837,6 @@ The Water Jug Problem is a state space search problem where states are represent
 \section{Python Source Code (\texttt{Water_jug.py})}
 \begin{lstlisting}[language=Python]
 from collections import deque
-from importlib.resources import path
 
 def water_jug(cap1, cap2, target_state):
     visited = set()
@@ -1258,11 +1257,11 @@ for block in blocks:
 
 # Display states
 print("\nInitial State:")
-for block, position in initial_state:
+for block, position in sorted(initial_state):
     print(block, "->", position)
 
 print("\nGoal State:")
-for block, position in goal_state:
+for block, position in sorted(goal_state):
     print(block, "->", position)
 
 # Solve
@@ -1298,14 +1297,14 @@ Where is A initially? Where is B initially? Where is C initially?
 Enter the desired position of each block.
 Where should A be in the goal state? Where should B be in the goal state? Where should C be in the goal state? 
 Initial State:
+A -> Table
 B -> A
 C -> Table
-A -> Table
 
 Goal State:
+A -> Table
 B -> Table
 C -> B
-A -> Table
 
 ===== SOLUTION =====
 Step 1: Move B from A to Table

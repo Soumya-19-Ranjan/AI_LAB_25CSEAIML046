@@ -18,14 +18,14 @@ Where is A initially? Where is B initially? Where is C initially?
 Enter the desired position of each block.
 Where should A be in the goal state? Where should B be in the goal state? Where should C be in the goal state? 
 Initial State:
+A -> Table
 B -> A
 C -> Table
-A -> Table
 
 Goal State:
+A -> Table
 B -> Table
 C -> B
-A -> Table
 
 ===== SOLUTION =====
 Step 1: Move B from A to Table
